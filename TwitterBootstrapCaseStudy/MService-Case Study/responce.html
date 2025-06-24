@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Tables</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--     <link rel="stylesheet" href="styles.css"/>  -->
+    <style>
+        .table {
+            margin-top: 20px;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .active {
+            background-color: #f5f5f5;
+        }
+        .success {
+            background-color: #dff0d8;
+        }
+        .danger {
+            background-color: #f2dede;
+        }
+        .info {
+            background-color: #d9edf7;
+        }
+        .warning {
+            background-color: #fcf8e3;
+        }
+    </style>
+</head>
+
+<body>
+    
+<table style="width:100%" class="table">
+			<tr >
+				<td rowspan="2" >Places to visit</td>
+				<td colspan="4" class="text-center active">Best time to visit</td>				
+			</tr>
+			<tr >				
+				<td class="success">Jan-Mar</td>
+				<td class="danger">Apr-Jun</td>
+				<td class="info">Jul-Sep</td>
+				<td class="warning">Oct-Dec</td>
+			</tr>			
+				<tr>
+					<td >Ooty</td>
+					<td class="success">No</td>
+					<td class="danger">Yes</td>
+					<td class="info">Yes</td>
+					<td class="warning">No</td>					
+				</tr>
+				<tr>
+        <td>Munnar</td>
+        <td class="success">Yes</td>
+        <td class="danger">No</td>
+        <td class="info">Yes</td>
+        <td class="warning">No</td>
+    </tr>
+    <tr>
+        <td>Coorg</td>
+        <td class="success">Yes</td>
+        <td class="danger">No</td>
+        <td class="info">No</td>
+        <td class="warning">Yes</td>
+    </tr>
+    <tr>
+        <td>Goa</td>
+        <td class="success">No</td>
+        <td class="danger">Yes</td>
+        <td class="info">No</td>
+        <td class="warning">Yes</td>
+    </tr>
+    <tr>
+        <td>Kerala</td>
+        <td class="success">Yes</td>
+        <td class="danger">No</td>
+        <td class="info">Yes</td>
+        <td class="warning">No</td>
+    </tr>
+		</table>
+
+		
+
+
+</body>
+</html>
