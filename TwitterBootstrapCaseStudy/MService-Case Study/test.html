@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <form class="form-horizontal" style="margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+        <!-- Text Input for First Name -->
+        <div class="form-group">
+            <label for="fname" class="control-label col-sm-2">First Name:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="fname" placeholder="Enter first name">
+            </div>
+        </div>
+
+        <!-- Email Input -->
+        <div class="form-group">
+            <label for="email" class="control-label col-sm-2">Email:</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+            <label for="comments" class="control-label col-sm-2">Comments:</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="comments" rows="4" placeholder="Enter your comments"></textarea>
+            </div>
+        </div>
+
+        <!-- Dropdown Selection -->
+        <div class="form-group">
+            <label for="destination" class="control-label col-sm-2">Destination:</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="destination">
+                    <option>Kerala</option>
+                    <option>Tamil Nadu</option>
+                    <option>Karnataka</option>
+                    <option>Sikkim</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Radio Buttons -->
+        <div class="form-group">
+            <label class="control-label col-sm-2">Preferences:</label>
+            <div class="col-sm-10">
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Promotional Mailers</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio" disabled>Calendars</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> I authorise <mark>Phenomenal India</mark> to call me for membership plan details.
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
